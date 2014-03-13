@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require File.join(File.expand_path("../..", __FILE__), "lib/ts_0mq_delta/runner/runner")
+
+Ts0mqDelta::Runner.new.run!
